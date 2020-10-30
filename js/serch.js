@@ -62,5 +62,5 @@ var libraries = [
 
 React.renderComponent(
     <SearchExample items={ libraries } />,
-    document.body
+    document.getElementById("serch")
 );

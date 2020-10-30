@@ -147,5 +147,5 @@ var PictureList = React.createClass({
 
 React.renderComponent(
     <PictureList apiKey="642176ece1e7445e99244cec26f4de1f" />,
-    document.body
+    document.getElementById('inst')
 );

@@ -27,5 +27,5 @@ var TimerExample = React.createClass({
 
 React.renderComponent(
     <TimerExample start={Date.now()} />,
-    document.body
+    document.getElementById("timer")
 );
